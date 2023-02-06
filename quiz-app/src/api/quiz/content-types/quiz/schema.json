@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quizzes",
+  "info": {
+    "singularName": "quiz",
+    "pluralName": "quizzes",
+    "displayName": "quiz"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true,
+      "default": "Question?"
+    },
+    "answer": {
+      "type": "enumeration",
+      "enum": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "required": true
+    }
+  }
+}
